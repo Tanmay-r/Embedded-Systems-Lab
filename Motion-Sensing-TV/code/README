@@ -1,0 +1,2 @@
+g++ -ggdb `pkg-config --cflags opencv alsa` face_detect.cpp `pkg-config --libs opencv alsa`-o motion_control
+g++ -ggdb `pkg-config --cflags alsa` socket.cpp `pkg-config --libs alsa`-o call_control
